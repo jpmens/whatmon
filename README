@@ -10,3 +10,9 @@ which runs on your web server and can produce a wee bit of XML. There is one
 thing that whatmon cannot reliably watch: the web server from which it
 retrieves that XML ... :-)
 
+To build an installable .xpi on UNIX:
+
+	vi version
+	make xpi
+
+On Windows you'll have to mess about with the `mxpi.bat' file.
