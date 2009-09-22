@@ -1,0 +1,12 @@
+This is whatmon
+===============
+
+whatmon is a tiny Firefox and Thunderbird extension or add-on, which can
+monitor almost anything you wish to monitor. Number of logged on users? Current
+load average?  Health of your LDAP servers? Mail server queues? No problem for
+whatmon, as long as you can create a CGI program in Perl, C, or any other
+language you are comfortable with, or even a PHP or Active-Whatever script
+which runs on your web server and can produce a wee bit of XML. There is one
+thing that whatmon cannot reliably watch: the web server from which it
+retrieves that XML ... :-)
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+ 
+<prefwindow id="whatmon-options"
+     title="Whatmon Options"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+<prefpane id="whatmon-pane">
+  <preferences>
+    <preference id="pref_refresh" name="whatmon.refresh" type="int"/>
+    <preference id="pref_url" name="whatmon.url" type="string"/>
+  </preferences>
+ 
+  <hbox align="center">
+    <label control="refresh" value="Refresh in ms: "/>
+    <textbox preference="pref_refresh" id="refresh"/>
+  </hbox>
+  <hbox align="center">
+    <label control="url" value="URL: "/>
+    <textbox preference="pref_url" id="url"/>
+  </hbox>
+</prefpane>
+
+</prefwindow>

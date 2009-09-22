@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://whatmon/skin/whatmon.css" type="text/css"?> 
+
+<!-- Thunderbird -->
+
+<overlay id="whatmonoverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	// This imports our javascript.
+	<script type="application/x-javascript" src="chrome://whatmon/content/whatmon.js" />
+
+	<script type="application/x-javascript">
+		window.addEventListener("load", loadwhatmon, false);
+	</script>
+
+	// This is for the Status bar
+	<statusbar id="status-bar">
+		<statusbarpanel
+		  id="whatmon"
+		  class="statusbarpanel-iconic-text"
+		  insertafter="statusbar-progresspanel"
+		  tooltiptext="WhatMon Status"
+		  onclick="whatmonrefresh();"
+		  label="Loading..." />
+	</statusbar>
+</overlay>

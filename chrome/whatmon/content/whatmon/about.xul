@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window class="dialog"
+        title="WhatMon - About"
+        orient="vertical"
+        autostretch="always"
+        onload="sizeToContent()"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<!-- Original template by Jed Brown -->
+
+<groupbox align="center" orient="horizontal">
+<vbox>
+  <text value="WhatMon" style="font-weight: bold; font-size: x-large;"/>
+  <text value="ver. 3.1.0" />
+  <separator class="thin" />
+  <text value="Created By:" style="font-weight: bold;"/>
+  <text value="Jan-Piet Mens based on work by Kevin Freitas and Paul Grave" class="url"
+        onclick="window.open('http://fupps.com/extensions/'); window.close();"/>
+  <separator class="thin"/>
+    <text value="Home Page:" style="font-weight: bold;"/>
+    <text value="http://fupps.com/extensions/"
+          class="url"
+        onclick="window.open('http://fupps.com/extensions/'); window.close();"/>
+  <separator class="thin"/>
+</vbox>
+<spring flex="1"/>
+<image src="chrome://whatmon/skin/whatmon.png"/>
+</groupbox>
+
+  <hbox>
+  <spacer flex="1"/>
+   <button label="Close" oncommand="window.close();"/>
+  </hbox>
+
+</window>

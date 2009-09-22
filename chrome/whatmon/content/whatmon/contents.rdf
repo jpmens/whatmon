@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:chrome="http://www.mozilla.org/rdf/chrome#" xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<RDF:Seq about="urn:mozilla:package:root">
+                <RDF:li resource="urn:mozilla:package:whatmon"/>
+        </RDF:Seq>
+
+        <RDF:Description about="urn:mozilla:package:whatmon"
+			chrome:author="Jan-Piet Mens"
+			chrome:description="This extension will monitor whatever"
+			chrome:displayName="whatmon 3.1.0"
+			chrome:extension="true"
+			chrome:name="whatmon"
+	/>
+
+        <!-- overlay information -->
+        <RDF:Seq about="urn:mozilla:overlays">
+                <RDF:li resource="chrome://browser/content/browser.xul"/>
+                <RDF:li resource="chrome://messenger/content/messenger.xul"/>
+        </RDF:Seq>
+
+        <!-- Firefox main window -->
+        <RDF:Seq about="chrome://browser/content/browser.xul">
+                <RDF:li>chrome://whatmon/content/whatmonoverlay-ff.xul</RDF:li>
+        </RDF:Seq>
+
+        <!-- Thunderbird main window -->
+        <RDF:Seq about="chrome://messenger/content/messenger.xul">
+                <RDF:li>chrome://whatmon/content/whatmonoverlay.xul</RDF:li>
+        </RDF:Seq>
+	
+	
+</RDF:RDF>

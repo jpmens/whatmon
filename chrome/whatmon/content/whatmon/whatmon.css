@@ -1,0 +1,9 @@
+statusbarpanel#whatmon:hover {
+ cursor: pointer;
+}
+
+statusbarpanel#whatmon {
+  max-width: auto;
+  font-family: monospace;
+  color: #000;
+}
