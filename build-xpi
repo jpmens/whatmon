@@ -1,0 +1,11 @@
+#!/bin/sh
+# Clobber and rebuild the .xpi file. Version number
+# is taken from ./version, with the period removed.
+
+DIST=whatmon-ff-tb
+VERSION="`tr -d . < version`"
+
+XPI="${DIST}-${VERSION}.xpi"
+
+echo $XPI
+zip -r ${XPI} install.rdf chrome defaults
