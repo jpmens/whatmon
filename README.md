@@ -1,5 +1,4 @@
-This is whatmon
-===============
+# This is whatmon
 
 whatmon is a tiny Firefox extension or add-on, which can
 monitor almost anything you wish to monitor. Number of logged on users? Current
@@ -31,7 +30,6 @@ To build an installable .xpi on UNIX:
 
 On Windows you'll have to mess about with the `mxpi.bat' file.
 
-Further Reading
-===============
+## Further Reading
 
 [Building an extension](https://developer.mozilla.org/en/Building_an_Extension)
