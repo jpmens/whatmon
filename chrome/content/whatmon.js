@@ -41,6 +41,8 @@
  *      Bumped to official Firefox 3.0.*
  * 26-Jul-2009 3.1.0
  *		Bumped to official Firefox 3.5.*
+ * 15-Mar-2012 4.1.1
+ *		Fixed for Firefox 10+
  */
  
 var update_interval = (5*60 * 1000);        // The interval, in ms, to update the counter.
@@ -116,7 +118,7 @@ function loadwhatmon() {
 			url = prefs.getCharPref('whatmon.url');
 		}
 		catch (e) {
-			url = 'http://fupps.com/extensions/whatmon/whatmon-alert.php';
+			url = 'http://jpmens.net/extensions/whatmon/whatmon-alert.php';
 		}
 
 		whatmonhover = 'whatmon ' + url + ' (' + (update_interval / 1000) + 's)';

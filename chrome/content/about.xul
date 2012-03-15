@@ -12,16 +12,16 @@
 <groupbox align="center" orient="horizontal">
 <vbox>
   <text value="WhatMon" style="font-weight: bold; font-size: x-large;"/>
-  <text value="ver. 3.1.0" />
+  <text value="ver. 4.1.1" />
   <separator class="thin" />
   <text value="Created By:" style="font-weight: bold;"/>
   <text value="Jan-Piet Mens based on work by Kevin Freitas and Paul Grave" class="url"
-        onclick="window.open('http://fupps.com/extensions/'); window.close();"/>
+        onclick="window.open('http://jpmens.net/extensions/'); window.close();"/>
   <separator class="thin"/>
     <text value="Home Page:" style="font-weight: bold;"/>
-    <text value="http://fupps.com/extensions/"
+    <text value="http://jpmens.net/"
           class="url"
-        onclick="window.open('http://fupps.com/extensions/'); window.close();"/>
+        onclick="window.open('http://jpmens.net/'); window.close();"/>
   <separator class="thin"/>
 </vbox>
 <spring flex="1"/>

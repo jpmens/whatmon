@@ -7,7 +7,7 @@
         <RDF:Description about="urn:mozilla:package:whatmon"
 			chrome:author="Jan-Piet Mens"
 			chrome:description="This extension will monitor whatever"
-			chrome:displayName="whatmon 3.1.0"
+			chrome:displayName="whatmon 4.1.1"
 			chrome:extension="true"
 			chrome:name="whatmon"
 	/>

@@ -8,7 +8,7 @@ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
         <em:id>{bc5e7c90-f53d-11da-974d-0800200c9a66}</em:id>
         <!-- <em:id>whatmon@fupps.com</em:id> -->
         <em:name>whatmon</em:name>
-        <em:version>4.1.0</em:version>
+        <em:version>4.1.1</em:version>
         <em:type>2</em:type>
         <!--
 		2 Extensions 
