@@ -13,7 +13,7 @@
 	</script>
 
 	// This is for the Status bar
-	<statusbar id="status-bar">	
+	<statusbar id="status-bar">
 		<statusbarpanel
 		  id="whatmon"
 		  class="statusbarpanel-iconic-text"

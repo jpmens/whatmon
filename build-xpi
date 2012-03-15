@@ -8,4 +8,4 @@ VERSION="`tr -d . < version`"
 XPI="${DIST}-${VERSION}.xpi"
 
 echo $XPI
-zip -r ${XPI} install.rdf chrome defaults
+zip -r ${XPI} install.rdf chrome.manifest chrome defaults
