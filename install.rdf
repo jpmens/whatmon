@@ -22,12 +22,14 @@ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
         <em:homepageURL>http://jpmens.net/pages/whatmon-mozilla-extension-for-monitoring-whatever/</em:homepageURL>
         <em:iconURL>chrome://whatmon/skin/whatmon.png</em:iconURL>
         <em:aboutURL>chrome://whatmon/content/about.xul</em:aboutURL>
+	<!--
         <em:file>
             <Description about="urn:mozilla:extension:file:whatmon">
                 <em:package>content/whatmon/</em:package>
                 <em:skin>skin/classic/whatmon/</em:skin>
             </Description>
         </em:file>
+	-->
 
 	<em:targetApplication>
 		<Description>

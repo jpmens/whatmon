@@ -32,4 +32,5 @@ On Windows you'll have to mess about with the `mxpi.bat' file.
 
 ## Further Reading
 
+[whatmon documentation](http://jpmens.net/pages/whatmon-mozilla-extension-for-monitoring-whatever/)
 [Building an extension](https://developer.mozilla.org/en/Building_an_Extension)
